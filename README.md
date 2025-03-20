@@ -87,3 +87,8 @@ The Blockchain-backed Leaderboard has significant potential for expansion and im
    - Real-time events for leaderboard creation, score updates, and administrative actions
    - Easy integration with frontend applications for responsive updates
    - Support for event tracking and notifications
+
+## Contract Address:
+   - 0x1c1F252190A3c0680077F33235CF9E6F7f53E426
+   - ![image](https://github.com/user-attachments/assets/e7cd1d16-9750-4718-af2a-add4f1fc59c5)
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blockchain Leaderboard</h1>
+        <div class="form-section">
+            <h2>Create Leaderboard</h2>
+            <input type="text" id="leaderboardName" placeholder="Leaderboard Name" required>
+            <input type="text" id="leaderboardDescription" placeholder="Description" required>
+            <button id="createLeaderboardBtn">Create Leaderboard</button>
+        </div>
+
+        <div class="form-section">
+            <h2>Submit Score</h2>
+            <input type="number" id="leaderboardId" placeholder="Leaderboard ID" required>
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="number" id="score" placeholder="Score" required>
+            <button id="submitScoreBtn">Submit Score</button>
+        </div>
+
+        <div class="form-section">
+            <h2>View Leaderboard</h2>
+            <input type="number" id="viewLeaderboardId" placeholder="Leaderboard ID" required>
+            <button id="viewLeaderboardBtn">View Leaderboard</button>
+            <div id="leaderboardDisplay"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+</body>
+</html>
